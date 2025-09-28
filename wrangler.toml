@@ -1,0 +1,7 @@
+# Cloudflare Workers configuration file
+name = "meting-api"
+main = "dist/cloudflare-workers.js"
+compatibility_date = "2025-09-01"
+
+[build]
+command = "npm run build:all"
